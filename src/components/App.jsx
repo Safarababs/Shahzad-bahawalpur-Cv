@@ -17,6 +17,22 @@ function App() {
       <Education />
      
       <Contact />
+      <div style={{textAlign:"center"}}>
+      <p style={{ display: "inline" }}>
+          © Copyright{" "}
+          <p style={{ display: "inline" }}>2022-{new Date().getFullYear()}</p> | all
+          rights reserverd by{" "}
+          <a
+            href="https://safarababs.github.io/safarweb/"
+            rel="noreferrer"
+            target="_blank"
+            style={{  color:"blue", textDecoration:"underline" }}
+          >
+           shahzad aslam
+          </a>
+        </p>
+      </div>
+      
     </>
   );
 }
