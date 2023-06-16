@@ -1,0 +1,396 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap&family=Noto Nastaliq Urdu&family=Dancing+Script:wght@700&display=swap");
+* {
+  font-family: "Nunito", "Noto Nastaliq Urdu" ، sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: all 0.2s linear;
+  text-transform: uppercase;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+.heading {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.heading span {
+  text-transform: uppercase;
+  font-size: 6.5rem;
+  border-bottom: 0.5rem solid green;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  cursor: pointer;
+  padding: 1rem 3rem;
+  border: 0.5rem solid green;
+  font-size: 2rem;
+  background: lightgreen;
+  color: black;
+}
+.btn:hover {
+  background-color: green;
+  color: White;
+}
+
+header {
+  padding-bottom: 2rem;
+}
+header .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+  width: 100%;
+  z-index: 1000;
+  background: linear-gradient(green, lightgreen);
+  position: fixed;
+  top: 0;
+  right: 0;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+header .header a {
+  cursor: pointer;
+}
+header .header a img {
+  margin-left: 4rem;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+}
+header .header #menu {
+  font-size: 3rem;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+header .header .navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+header .header .navbar ul li {
+  margin: 0 1rem;
+}
+header .header .navbar ul li a {
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+}
+header .header .navbar ul li a:active {
+  background: red;
+  border-radius: 2rem;
+}
+header .header .navbar ul li a:hover {
+  color: yellow;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  min-height: 100vh;
+  padding: 3rem 2rem;
+  margin: 0 auto;
+  max-width: 1200px;
+  text-align: center;
+}
+.home .image {
+  flex: 1 1 10rem;
+}
+.home .image img {
+  height: 10rem;
+  padding: 2rem;
+}
+.home .content {
+  flex: 1 1 45rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.home .content h3 {
+  text-transform: uppercase;
+  font-size: 5rem;
+  margin-bottom: 0.5rem;
+}
+.home .content span {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: lightgreen;
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+.home .content p {
+  font-size: 1.7rem;
+  line-height: 2;
+  padding: 1rem 0;
+  display: inline;
+}
+
+.about {
+  padding: 3rem 2rem;
+  margin: 0 auto;
+  max-width: 1200px;
+  text-align: center;
+  max-width: 100vw;
+  margin: 0 auto;
+  background: lightgreen;
+}
+.about .content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: black;
+}
+.about .content p {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  color: black;
+}
+.about .content p:last-of-type {
+  margin-bottom: 0;
+}
+
+.education {
+  min-height: 100vh;
+  background: lightgreen;
+}
+.education .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.education .box-container .box {
+  margin: 2rem;
+  width: 35rem;
+  height: 35rem;
+  text-align: center;
+  background: #fff;
+  margin: 2rem;
+  padding: 2rem;
+  box-shadow: 0 0.3rem 0.5rem #000;
+}
+.education .box-container .box i {
+  color: green;
+  font-size: 5rem;
+  padding: 2rem 0;
+}
+.education .box-container .box h3 {
+  color: green;
+  font-size: 2.5rem;
+  margin: 2rem;
+}
+.education .box-container .box p {
+  color: black;
+  font-size: 2rem;
+  margin: 2rem;
+  display: inline;
+}
+.education .box-container .box:hover {
+  transform: scale(1.02);
+}
+
+.experience {
+  padding: 3rem 2rem;
+  margin: 0 auto;
+  max-width: 1200px;
+  max-width: 100vw;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+.experience .heading {
+  color: black;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 4rem;
+}
+.experience .heading i {
+  margin: 0.5rem;
+  color: green;
+}
+.experience .content {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-flow: column;
+  flex-wrap: wrap;
+}
+.experience .content .container {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-flow: column;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+.experience .content .container h4 {
+  font-size: 2rem;
+}
+.experience .content .container h6 {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+.experience .content .container h6 .current {
+  background: lightgreen;
+  background-size: cover;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+}
+.experience .content .container h6 i {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  color: green;
+}
+
+.contact {
+  min-height: 100vh;
+  padding-bottom: 2rem;
+}
+.contact form {
+  border-radius: 1rem;
+  background: #fff;
+  width: 85%;
+  margin: 2rem auto;
+  padding: 2rem;
+  box-shadow: 0 0.5rem 1rem #000;
+  text-align: center;
+}
+.contact form .inputBox {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contact form .inputBox.error-border input,
+.contact form .inputBox.error-border textarea {
+  border: 2px solid red;
+}
+.contact form .inputBox input,
+.contact form .inputBox select,
+.contact form .inputBox textarea {
+  padding: 0 1rem;
+  font-size: 1.7rem;
+  color: #333;
+  height: 4rem;
+  width: 100%;
+  margin: 1rem 0;
+  border: 0.1rem solid #333;
+}
+.contact form .inputBox input:focus,
+.contact form .inputBox select:focus,
+.contact form .inputBox textarea:focus {
+  border: 0.2rem solid green;
+}
+.contact form .inputBox textarea {
+  height: 20rem;
+  padding: 1rem;
+  resize: none;
+}
+.contact form .inputBox.error-border input,
+.contact form .inputBox.error-border textarea {
+  border: 2px solid red;
+}
+.contact form .error-message {
+  margin-top: 0.5rem;
+  color: red;
+  font-size: 1.5rem;
+}
+.contact form .btn {
+  color: green;
+  border-color: green;
+  outline-color: green;
+  transition: background-color 0.3s ease-in-out;
+}
+.contact form .btn:hover {
+  color: #fff;
+}
+.contact form .btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.contact form .btn .animate-spin {
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+  header .header a img {
+    margin-left: 0.1rem;
+  }
+  header .header #menu {
+    display: inline-block;
+    margin-right: 2rem;
+  }
+  header .header .navbar {
+    position: fixed;
+    top: 50%;
+    left: -200%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 0 100vh rgba(0, 0, 0, 0.3);
+    z-index: 10000;
+    opacity: 0;
+  }
+  header .header .navbar ul {
+    flex-flow: column;
+    background: linear-gradient(green, lightgreen);
+    border: 0.2rem solid #fff;
+    box-shadow: 0 0.3rem 0.5rem #000;
+    padding: 4rem 0;
+    width: 27rem;
+  }
+  header .header .navbar ul li {
+    width: 100%;
+    margin: 1rem 0;
+    text-align: center;
+    display: block;
+  }
+  header .header .navbar ul li a {
+    font-size: 2.5rem;
+  }
+  header .header .nav-toggle {
+    left: 50%;
+    opacity: 1;
+  }
+  .fa-times {
+    transform: rotate(180deg);
+  }
+  .login input {
+    width: 80%;
+  }
+  .login .button {
+    width: 80%;
+  }
+}
+.home .image img {
+  height: auto;
+  width: 100%;
+}
+.home .content h3 {
+  font-size: 3rem;
+}
+
+.heading span {
+  font-size: 4rem;
+}/*# sourceMappingURL=style.css.map */
