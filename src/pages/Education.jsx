@@ -11,7 +11,7 @@ function Education() {
       <div className="box-container">
         <div className="box">
           <i className="fa-solid fa-certificate"></i>
-          <h3>B.Tech(Hons) in 2014</h3>
+          <h3>B.Tech(Hons) in 2013</h3>
           <p>uet bahawalpur campus</p>
         </div>
 

@@ -16,7 +16,7 @@ function Experience() {
             </b>
           </h4>
           <h6>
-            <i className="fa fa-calendar fa-fw w3-margin-right"></i>November
+            <i className="fa fa-calendar fa-fw w3-margin-right"></i>October
             2020 - <span className="current">Current</span>
           </h6>
           <div style={{ borderTop: "2px solid black ", width:"auto" }}></div>
@@ -53,7 +53,7 @@ function Experience() {
         <div className="container">
           <h4 className="w3-opacity">
             <b>
-              mechanical technician, neelam jehlum hydro electric plant, PK / Wartsila ( W9L32 ) 12MW + 1mW CAT-3512
+              Shift Engineer, neelam jehlum hydro electric plant, PK / Wartsila ( W9L32 ) 12MW + 1mW CAT-3512
             </b>
           </h4>
           <h6 className="w3-text-cyan">
