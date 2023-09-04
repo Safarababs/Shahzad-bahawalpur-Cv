@@ -22,7 +22,7 @@ function Home() {
     <section className="home" id="home">
       <div className="content">
         <h3>hi, i am Muhammad Shahzad Aslam</h3>
-        <span>shift engineer diesel engines power plants</span>
+        <span>shift engineer diesel engines power generation</span>
         <br></br>
         <p>
           I Am a mechanical Engineer having Extensive Knowledge In power plants
